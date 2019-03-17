@@ -2,7 +2,7 @@
 
 const logDriverNames = function(drivers) {
   return drivers.forEach(function(driver) {
-    console.log(driver.name);})
+    console.log(driver.name)})
 }
 
 const logDriversByHometwon = function(drivers, loc) {
