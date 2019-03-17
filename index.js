@@ -23,5 +23,5 @@ const driversByName = function(drivers) {
   const newArr= [...drivers]
   return newArr.sort(function (a,b){
      return a.name.localeCompare(b.name)
-  }
+  })
 }
