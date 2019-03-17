@@ -5,4 +5,3 @@ const logDriversNames(drivers) {
     console.log(driver.name);})
   }
   
-}
